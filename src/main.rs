@@ -1,3 +1,6 @@
+mod code;
+mod tests;
+
 fn main() {
-    println!("Hello, world!");
+    println!("bar code: {:?}", code::bar_code(348165).unwrap());
 }
