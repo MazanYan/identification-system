@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
-    use crate::code::Color::*;
-    use crate::code::bar_code;
+    use crate::bar_code::Color::*;
+    use crate::bar_code::bar_code;
 
     #[test]
     fn test_bar_code() {
